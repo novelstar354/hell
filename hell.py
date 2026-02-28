@@ -52,7 +52,7 @@ label2.pack(side="top")
 
 #座標入力
 font2 = font.Font(family='Times', size=40)
-label3 = tkinter.Label(root, text="お前はこれから地獄を見ることになる。\nn嫌だったら今すぐこのモジュールを閉じろ。\n忠告はしたからな。", font=font2)
+label3 = tkinter.Label(root, text="お前はこれから地獄を見ることになる。\nn嫌だったら今すぐこのモジュールを閉じろ。地獄を見たくなかったらウィンドウだけは最初に閉じるなよ\n忠告はしたからな。", font=font2)
 label3.place(x=10, y=60)
 
 root.mainloop()
@@ -66,3 +66,5 @@ for i in range(900):
         window.destroy()
     window.bind("<Escape>",close_window)
 window.mainloop()
+
+
