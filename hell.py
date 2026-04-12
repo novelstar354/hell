@@ -67,4 +67,14 @@ for i in range(900):
     window.bind("<Escape>",close_window)
 window.mainloop()
 
+for i in range(900):
+    import tkinter as tk
+    window = tk.Tk()
+    window.title("shine")
+    window.geometry("400x400")
+    def close_window(event):
+        window.destroy()
+    window.bind("<Escape>",close_window)
+window.mainloop()
+
 
