@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
 
-MAX_REOPEN = 2
+MAX_REOPEN = 9999
 reopen_count = 0
 
 # 使用文字
