@@ -96,7 +96,7 @@ def create_window():
     # タイトルバー風
     title_label = tk.Label(
         frame,
-        text="Staaaaaaaaaaaaaaaaaaaaaar",
+        text="Star",
         bg="#dddddd",
         anchor="w"
     )
@@ -126,7 +126,7 @@ def create_window():
     # 内容
     label = tk.Label(
         frame,
-        text="Staaaaaaaaaaaaaaaaaaaaaar",
+        text="Star",
         font=("Arial", 14),
         bg="white"
     )
